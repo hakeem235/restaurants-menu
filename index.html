@@ -1,18 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    
-    <title>Document</title>
-</head>
-<body>
-    <h1>hello, world</h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Complete Responsive Restaurant Website</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Food<span>.</span></a>
+      <div class="menuToggle" onclick="toggleMeun();"></div>
+      <ul class="navigation">
+        <li><a href="#banner" onclick="toggleMeun();">Home</a></li>
+        <li><a href="#about" onclick="toggleMeun();">About</a></li>
+        <li><a href="#menu" onclick="toggleMeun();">Menu</a></li>
+        <li><a href="#expert" onclick="toggleMeun();">Expert</a></li>
+        <li><a href="#testimonials" onclick="toggleMeun();">Testimonials</a></li>
+        <li><a href="#contact" onclick="toggleMeun();">Contact</a></li>
+      </ul>
+    </header>
+    <section class="banner" id="banner">
+      <div class="content">
+        <h2>Always Choose Good</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
+          cupiditate maxime iure, adipisci hic labore doloribus architecto
+          cumque nisi corporis, unde ratione ea sit culpa itaque.
+        </p>
+        <a href="#" class="btn">Our Menu</a>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="row">
+        <div class="col50">
+          <h2 class="titleText"><span>A</span>bout Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            tempora molestias repudiandae excepturi ullam sit, atque unde
+            reprehenderit veniam obcaecati adipisci vitae magnam ad itaque vero
+            rem sed exercitationem labore! Cumque libero sapiente deleniti
+            minima, assumenda libero nulla quaerat ipsa obcaecati! Fugit, vero
+            impedit ut optio maiores accusamus. Eum sint excepturi cum
+            cupiditate ducimus culpa a dolorum animi ea quisquam. Maiores, fuga
+            <br /><br />Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Impedit minus eaque eum hic ullam necessitatibus error reiciendis
+            tempora eius recusandae iste magnam provident nobis, ea at culpa
+            molestias voluptas fuga. Officia eveniet doloremque blanditiis.
+            Accusantium
+          </p>
+        </div>
+        <div class="col50">
+          <div class="imgBx">
+            <img src="./assets/images/img1.jpg" />
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="menu" id="menu">
+      <div class="title">
+        <h2 class="titleText">Our <span>M</span>enu</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="content">
+        <div class="box">
+          <div class="imgBx">
+            <img src="./assets/images/menu1.jpg" />
+          </div>
+          <div class="text">
+            <h3>Special Salads</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="./assets/images/menu2.jpg" />
+          </div>
+          <div class="text">
+            <h3>Special Soup</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="./assets/images/menu3.jpg" />
+          </div>
+          <div class="text">
+            <h3>Special Pasta</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="./assets/images/menu4.jpg" />
+          </div>
+          <div class="text">
+            <h3>Special Pasta</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="./assets/images/menu5.jpg" />
+          </div>
+          <div class="text">
+            <h3>Special Pasta</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="./assets/images/menu6.jpg" />
+          </div>
+          <div class="text">
+            <h3>Special Pasta</h3>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <a href="#" class="btn">View All</a>
+      </div>
+    </section>
 
+    <section class="expert" id="expert">
+      <div class="title">
+        <h2 class="titleText">Our Kitchen <span>E</span>xpert</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="content">
+        <div class="box">
+          <div class="imgBx">
+            <img src="./assets/images/expert1.jpg" />
+          </div>
+          <div class="text">
+            <h3>Someone Famous</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="./assets/images/expert2.jpg" />
+          </div>
+          <div class="text">
+            <h3>Someone Famous</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="./assets/images/expert3.jpg" />
+          </div>
+          <div class="text">
+            <h3>Someone Famous</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="./assets/images/expert4.jpg" />
+          </div>
+          <div class="text">
+            <h3>Someone Famous</h3>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <script href="script.js"></script>
-</body>
+    <section class="testimonials" id="testimonials">
+      <div class="title white">
+        <h2 class="titleText">They <span>S</span>aid About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="content">
+        <div class="box">
+          <div class="imgBx">
+            <img src="./assets/images/testi1.jpg" />
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+              expedita soluta quae quibusdam exercitationem nisi ad sapiente
+              illo inventore nobis ipsa neque cum pariatur ipsum at sunt, rem
+              provident est.
+            </p>
+            <h3>Someone Famous</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="./assets/images/testi2.jpg" />
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+              expedita soluta quae quibusdam exercitationem nisi ad sapiente
+              illo inventore nobis ipsa neque cum pariatur ipsum at sunt, rem
+              provident est.
+            </p>
+            <h3>Someone Famous</h3>
+          </div>
+        </div>
+        <div class="box">
+          <div class="imgBx">
+            <img src="./assets/images/testi3.jpg" />
+          </div>
+          <div class="text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+              expedita soluta quae quibusdam exercitationem nisi ad sapiente
+              illo inventore nobis ipsa neque cum pariatur ipsum at sunt, rem
+              provident est.
+            </p>
+            <h3>Someone Famous</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="title">
+        <h2 class="titleText"><span>C</span>ontact Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="contactForm">
+        <h3>Send Message</h3>
+        <div class="inputBox">
+          <input type="text" placeholder="Name" />
+        </div>
+        <div class="inputBox">
+          <input type="email" placeholder="Email" />
+        </div>
+        <div class="inputBox">
+          <textarea></textarea>
+        </div>
+        <div class="inputBox">
+          <input type="submit" value="Send" />
+        </div>
+      </div>
+    </section>
+
+    <div class="copyrightText">
+      <p>copyright 2022 <a href="#">Ahmed Hakeem</a>. All Right Reserved</p>
+    </div>
+
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+
+      function toggleMeun() {
+        const menuToggle = document.querySelector(".menuToggle");
+        const navigation = document.querySelector(".navigation");
+        menuToggle.classList.toggle("active");
+        navigation.classList.toggle("active");
+      }
+    </script>
+  </body>
 </html>
