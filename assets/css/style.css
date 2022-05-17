@@ -24,7 +24,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("/assets/images/bg.jpg");
+  background-image: url("/assets/images/bg.jpg");
   background-size: cover;
 }
 
@@ -246,7 +246,7 @@ section {
 }
 
 .testimonials {
-  background: url(/assets/images/bg2.jpg);
+  background-image: url(/assets/images/bg2.jpg);
   background-size: cover;
 }
 
@@ -310,7 +310,7 @@ section {
 }
 
 .contact {
-  background: url(/assets/images/bg3.jpg);
+  background-image: url(/assets/images/bg3.jpg);
   background-size: cover;
 }
 
